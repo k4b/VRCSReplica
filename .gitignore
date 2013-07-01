@@ -1,3 +1,4 @@
+
 Thumbs.db
 *.obj
 *.exe
@@ -37,6 +38,4 @@ packages/clrzmq.2.2.5/lib/clrzmq.xml
 packages/clrzmq.2.2.5/LICENSE
 packages/clrzmq.2.2.5/tools/install.ps1
 packages/repositories.config
-Replica.sln
 Replica/packages.config
-Replica/Properties/AssemblyInfo.cs

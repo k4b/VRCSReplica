@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,7 +19,7 @@ namespace Replica
         public string address { get; private set; }
         public ReplicaInfo primary { get; set; }
         public List<ReplicaInfo> replicaList { get; set; }
-        private int viewNumber { get; set; }
+        public int viewNumber { get; set; }
         public Log log { get; private set; }
         private State state { get; set; }
         private int opNumber { get; set; }
@@ -37,7 +37,7 @@ namespace Replica
             opNumber = 0;
             log = new Log();
             clientTable = new List<ClientInfo>();
-            VRCode vrcode = new VRCode();
+            VRCode vrcode = new VRCode(this);
             Console.WriteLine(identify());
             vrcode.startServer(address);
         }
