@@ -27,3 +27,16 @@ _ReSharper*/
 [Tt]est[Rr]esult*
 *.vssscc
 $tf*/
+.tfignore
+.gitignore
+packages/clrzmq.2.2.5/clrzmq.2.2.5.nuspec
+packages/clrzmq.2.2.5/clrzmq.2.2.5.nupkg
+packages/clrzmq.2.2.5/lib/clrzmq-ext.dll
+packages/clrzmq.2.2.5/lib/clrzmq-ext.xml
+packages/clrzmq.2.2.5/lib/clrzmq.xml
+packages/clrzmq.2.2.5/LICENSE
+packages/clrzmq.2.2.5/tools/install.ps1
+packages/repositories.config
+Replica.sln
+Replica/packages.config
+Replica/Properties/AssemblyInfo.cs
